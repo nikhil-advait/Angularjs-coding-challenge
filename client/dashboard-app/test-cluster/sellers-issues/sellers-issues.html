@@ -1,0 +1,14 @@
+<div class="pane-right">
+  <div class="block-header">
+    <span class='block-header-contents'>Issues/Feedback from Sellers</span>
+  </div>
+  <div zs-load-indicator zs-promise="alertsPromise" zs-message="'Loading ...'">
+    <br/><br/>
+    <div ng-repeat="issue in issues" class="issue">
+      {{issue.type + (issue.type === 'Issue'? ' raised by ' : ' from ') + issue.from}} <br/>
+      {{issue.desc}}
+    </div>
+    <br/>
+    <button ng-show="issues" class='btn-full'>View all alerts</button>
+  </div>
+</div>

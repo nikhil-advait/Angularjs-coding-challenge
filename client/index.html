@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>shadowFax Dashboard App</title>
+    <link rel="stylesheet" href="/assets/app.css" media="screen" title="no title" charset="utf-8">
+    <link href="c3/c3.min.css" rel="stylesheet" type="text/css">
+
+  </head>
+  <body ng-app="appMD">
+
+    <div>
+      <div ui-view class="app"></div>
+    </div>
+
+    <script type="text/javascript" src='jquery/dist/jquery.js'></script>
+    <script type="text/javascript" src='angular/angular.js'></script>
+    <script type="text/javascript" src='angular-ui-router/release/angular-ui-router.js'></script>
+    <script src="d3/d3.min.js"></script>
+    <script src="c3/c3.min.js"></script>
+
+    <script type="text/javascript" src='dashboard-app/common/common-md.js'></script>
+    <script type="text/javascript" src='dashboard-app/common/directives/zs-load-indicator-dir.js'></script>
+    <script type="text/javascript" src='dashboard-app/common/api-services/common-api-sv.js'></script>
+
+    <script type="text/javascript" src='dashboard-app/app/app-md.js'></script>
+    <script type="text/javascript" src='dashboard-app/app/app-ctrl.js'></script>
+
+    <script type="text/javascript" src='dashboard-app/test-cluster/test-cluster-md.js'></script>
+    <script type="text/javascript" src='dashboard-app/test-cluster/test-cluster-ctrl.js'></script>
+    <script type="text/javascript" src='dashboard-app/test-cluster/test-cluster-sv.js'></script>
+    <script type="text/javascript" src='dashboard-app/test-cluster/orders-count/orders-count-ctrl.js'></script>
+
+    <script type="text/javascript" src='dashboard-app/test-cluster/cluster-wise-orders/cluster-wise-orders-ctrl.js'></script>
+    <script type="text/javascript" src='dashboard-app/test-cluster/cluster-wise-orders/pie-chart-dir.js'></script>
+    <script type="text/javascript" src='dashboard-app/test-cluster/cluster-wise-orders/bar-chart-dir.js'></script>
+
+    <script type="text/javascript" src='dashboard-app/test-cluster/rider-attendance/rider-attendance-ctrl.js'></script>
+    <script type="text/javascript" src='dashboard-app/test-cluster/rider-attendance/hori-bar-chart-dir.js'></script>
+
+    <script type="text/javascript" src='dashboard-app/test-cluster/sellers-issues/sellers-issues-ctrl.js'></script>
+
+    <script type="text/javascript" src='dashboard-app/test-cluster/orders-count/order-category-dir.js'></script>
+
+  </body>
+</html>

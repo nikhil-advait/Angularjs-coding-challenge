@@ -1,0 +1,26 @@
+{
+  "name": "shadowfaxExercise",
+  "version": "0.0.0",
+  "authors": [
+    "Nikhil Yeole <nikhil.yeole1@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.6",
+    "angular-ui-router": "~0.2.15",
+    "d3": "~3.5.5",
+    "c3": "0.4.10",
+    "jquery": "~2.1.1",
+  }
+}

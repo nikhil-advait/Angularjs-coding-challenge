@@ -1,0 +1,119 @@
+.header{
+  height: 30px;
+  background-color: #EC6767;
+}
+
+.user-settings{
+  float: right;
+  color: white;
+  position:relative;
+  top: 30%;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold
+}
+
+.category {
+  height: 100%;
+  width: 16%;
+  display: inline-block;
+}
+
+.total-orders {
+  background-color: #3D97D6;
+}
+
+.unassigned {
+  background-color: #E4E482;
+}
+.allotted {
+  background-color: #A0ECEA;
+}
+.collected {
+  background-color: #E2AF1B;
+}
+.delivered {
+  background-color: #67B333;
+}
+.cancelled {
+  background-color: red;
+}
+.completed {
+  background-color: red;
+}
+
+.categories{
+  height: 35px;
+}
+
+.app{
+  border: 1px solid;
+  overflow: scroll;
+}
+
+.full-pane{
+  border: 1px solid;
+  height: 291px;
+  margin: 5px;
+}
+
+.pane-left{
+  border: 1px solid;
+  height: 270px;
+  width: 67%;
+  float: left;
+  margin: 5px;
+}
+
+.pane-right{
+  border: 1px solid;
+  height: 270px;
+  width: 30%;
+  float: right;
+  margin: 5px;
+}
+
+.left-half{
+  width: 48%;
+  height: 91%;
+  margin: 2px;
+  float: left;
+}
+
+.right-half{
+  width: 48%;
+  height: 91%;
+  margin: 2px;
+  float: right;
+}
+
+.block-header{
+  height: 20px;
+  background-color: #D8D2D2;
+}
+
+.block-header-contents{
+  float: left;
+  position:relative;
+  top: 4%;
+}
+
+.issue{
+  border: 1px solid;
+  padding: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.btn-full{
+  width: 80%;
+  /* margin: auto; */
+  margin-left: 37px;
+  /* clear: both; */
+}
+
+.ciSpinnerOverlay {
+   background-image:url('loading_spinner.gif');
+   height: 152px;
+   width: 168px;
+}

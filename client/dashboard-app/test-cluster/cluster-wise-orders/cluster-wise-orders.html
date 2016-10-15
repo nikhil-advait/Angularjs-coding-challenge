@@ -1,0 +1,11 @@
+<div class='full-pane' >
+  <div class="block-header">
+    <span class="block-header-contents">Cluster wise orders</span>
+  </div>
+  <div class="left-half" zs-load-indicator zs-promise="piePromise"  zs-message="'Loading pie chart data....'">
+    <div pie-chart id='pieChart' data="pieData"></div>
+  </div>
+  <div class="right-half" zs-load-indicator zs-flag="false" zs-message="'Loading bar chart data....'">
+    <div bar-chart id='barChart' data="barData"></div>
+  </div>
+</div>
